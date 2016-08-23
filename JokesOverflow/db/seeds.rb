@@ -8,6 +8,7 @@
 
 User.create(user_name: "Marco", email: "marco@marco.com", password: "password")
 
-Article.create(title: "Marco", body: "marco marco marco", user_id: 1, category_id: 1, voteable_id: 1, voteable_type: "Vote")
+Article.create(title: "Marco", body: "iuhffiauhfweihorueheqwsihriuwhdiurhweuahuirwfchaioweruhnrisughfwezihngrorehoiuwhefreifuheiuehnwdfi",
+ user_id: 1, category_id: 1)
 
-Category.create(name: "Marco")
+Category.create(name: "Riddles")

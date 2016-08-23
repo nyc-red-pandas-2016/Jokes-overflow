@@ -1,0 +1,9 @@
+
+<h1> Welcome to Jokes Land!! </h1>
+
+<h3>Browse for Jokes categories</h3>
+<ul>
+  <% @categories.each do |category| %>
+     <li id='category-li'><%= link_to category.name, category_path(category) %></li>
+  <% end %>
+</ul>
