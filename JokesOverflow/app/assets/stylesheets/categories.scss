@@ -1,3 +1,68 @@
-// Place all the styles related to the Categories controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#category_show {
+  width: 25%;
+  text-align: center;
+  margin-left: 35%;
+}
+
+#category_article {
+  border-bottom: solid 1px #00ffff;
+  padding-top: 8%;
+
+}
+
+#category-li {
+  text-align: center;
+  padding-top: 2%;
+
+}
+
+#new_category {
+  text-align: center;
+}
+
+#new_article {
+  text-align: center;
+}
+
+.article_name {
+  height: 50px;
+  width: 150px;
+  font-size: 25px;
+}
+.article_body {
+  height: 100px;
+  width: 300px;
+  font-size: 25px;
+}
+
+.submit{
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.submit:hover{
+
+  background-color: #66ffff;
+
+}
+
+#category_name {
+  height: 50px;
+  width: 150px;
+  font-size: 25px;
+}

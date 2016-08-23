@@ -1,0 +1,23 @@
+<%= form_for @category do |f| %>
+
+<% if @category.errors.any? %>
+<div id='error_explanation'>
+  <ul>
+    <% @category.errors.full_messages.each do |msg| %>
+    <li> <%= msg%> </li>
+      <% end %>
+  </ul>
+</div>
+<% end %>
+
+<p>
+  <%= f.label :name %>
+  <br>
+  <%= f.text_field :name, class:'category_name' %>
+</p>
+
+<p>
+  <%= f.submit  class: 'submit' %>
+</p>
+
+<% end %>

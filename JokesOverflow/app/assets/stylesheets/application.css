@@ -13,3 +13,57 @@
  *= require_tree .
  *= require_self
  */
+#nav-bar ul {
+    list-style-type: none;
+    margin-top: 0px;
+    overflow: hidden;
+    /*background-color: #08483C;*/
+}
+
+#nav-bar li {
+    float: left;
+}
+
+#nav-bar li a {
+    display: block;
+    color: #00ffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#nav-bar li a:hover {
+    background-color: #1E8449;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+
+}
+
+html {
+
+  background: #08483C; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#08483C, #0BFACC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#08483C, #0BFACC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#08483C, #0BFACC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#08483C, #0BFACC); /* Standard syntax */
+  height: 300%;
+  width: 100%;
+}
+
+li a {
+  text-decoration: none;
+  color: #00ffff;
+}
+
+li {
+  list-style-type: none;
+
+}
+
+
+

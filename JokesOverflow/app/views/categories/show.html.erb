@@ -1,0 +1,15 @@
+<h1>Jokes for <%= @category.name %></h1>
+
+<div id="category_show">
+  <h3><%= link_to 'Create Joke', new_category_article_path(@category) %></h3>
+
+  <ul>
+    <% @articles.each do |article|%>
+      <div id="category_article">
+        <li>Title: <%= link_to article.title, article_path(article) %><br>
+        Author: <%= article.user.user_name %></li>
+
+      </div>
+    <% end %>
+  </ul>
+</div>
